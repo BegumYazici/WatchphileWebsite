@@ -1,6 +1,5 @@
 import React from "react"
 import {getDbModuleAndDb} from "../utils/firebase"
-import "../styles/site.css"
 import { Helmet } from "react-helmet"
 
 import think_icon from "../images/think_icon.png"
@@ -24,6 +23,7 @@ import icon3 from "../images/bubble-chat.svg"
 import icon4 from "../images/review.svg"
 
 import watchphile_video from "../assets/watchphile_video.mp4"
+import { Link } from "gatsby"
 
 function handleClick(e) {
     e.preventDefault();
@@ -87,10 +87,11 @@ export default class HomePage extends React.Component {
                     />
                 </div>
 
-                <header className="sticky z-10 top-0 bg-black filter drop-shadow p-3 px-6 md:px-10 border-b border-gray-300">
+                <header className="sticky z-10 top-0 bg-black filter drop-shadow p-3 px-6 md:px-10 border-b border-gray-300 flex justify-between">
                     <a className="" href="#">
                         <img className="h-8 md:h-8" alt="Watchphile Icon" src={watchphile_text_image}/>
                     </a>
+                    <Link to="/blog" className="text-white">Blog</Link>
                 </header>
 
                 <section className="text-gray-600 body-font bg-black">

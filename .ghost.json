@@ -1,0 +1,10 @@
+{
+  "development": {
+    "apiUrl": "http://3.229.153.93",
+    "contentApiKey": "6bc575c4927ff67999516fb28f"
+  },
+  "production": {
+    "apiUrl": "http://3.229.153.93",
+    "contentApiKey": "6bc575c4927ff67999516fb28f"
+  }
+}

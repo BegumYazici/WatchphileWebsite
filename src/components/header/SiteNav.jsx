@@ -76,16 +76,19 @@ class SiteNav extends React.Component {
         {config.showSubscribe && <SubscribeModal ref={this.subscribe} />}
         <nav css={SiteNavStyles}>
           <SiteNavLeft className="site-nav-left">
-            {!isHome && <SiteNavLogo />}
+            <SiteNavLogo />
             <SiteNavContent css={[this.state.showTitle ? HideNav : ""]}>
               {/* eslint-disable-next-line */}
               <ul css={NavStyles} role="menu">
                 {/* eslint-disable-next-line */}
-                <li role="menuitem">
+                {
+                  !isHome &&  <li role="menuitem">
                   <Link to="/blog" activeClassName="nav-current">
                     Blog
                   </Link>
                 </li>
+                }
+               
                 {/* eslint-disable-next-line */}
                 {/* eslint-disable-next-line */}
                 {/* <li role="menuitem">

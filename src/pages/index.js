@@ -140,7 +140,7 @@ export default class HomePage extends React.Component {
                 <section className="text-gray-700 body-font bg-grey-600">
                     <div className="container mx-auto flex flex-col px-6 md:px-20 py-20 justify-center items-center">
                         <div className="w-full md:w-2/3 flex flex-col mb-6 items-center text-center">
-                            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-semibold text-black">The most fun way to decide <br></br> what to watch!</h1>
+                            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-semibold text-black">The best way to decide <br></br> what to watch!</h1>
                         </div>
 
                         <div className="grid grid-cols-2 md:grid-cols-4 items-start w-full md:space-x-4">
@@ -148,21 +148,21 @@ export default class HomePage extends React.Component {
                                 <div className="p-4 bg-white border-4 border-pink-200 rounded-full mb-6">
                                     <img className="w-20 h-20" alt="Waste of Time" src={icon1}/>
                                 </div>
-                                <span className="text-xl md:text-2xl text-gray-700 text-center">No more <br></br> time-wasting!</span>
+                                <span className="text-xl md:text-2xl text-gray-700 text-center">No more <br></br> wasting time!</span>
                             </div>
 
                             <div className="flex flex-col items-center justify-start">
                                 <div className="p-4 bg-white border-4 border-pink-200 rounded-full mb-6">
                                     <img className="w-20 h-20" alt="Waste of Time" src={icon2}/>
                                 </div>
-                                <span className="text-xl md:text-2xl text-gray-700 text-center">Find good the <br></br> movie/tv show <br></br> tailored for you!</span>
+                                <span className="text-xl md:text-2xl text-gray-700 text-center">Finding the very best<br></br> movies/tv shows <br></br>for you!</span>
                             </div>
 
                             <div className="flex flex-col items-center justify-start">
                                 <div className="p-4 bg-white border-4 border-pink-200 rounded-full mb-6">
                                     <img className="w-20 h-20" alt="Waste of Time" src={icon3}/>
                                 </div>
-                                <span className="text-xl md:text-2xl text-gray-700 text-center">Share your <br></br> thoughts with <br></br> other <br></br> watchphiler!</span>
+                                <span className="text-xl md:text-2xl text-gray-700 text-center">Share your <br></br> thoughts with <br></br> other <br></br> watchphilers!</span>
                             </div>
 
                             <div className="flex flex-col items-center justify-start">
@@ -189,7 +189,7 @@ export default class HomePage extends React.Component {
                             </a>
                             <a className="flex title-font font-medium text-gray-900">
                                 <img className="w-6 h-6 mt-2" alt="Check Icon" src={check_icon}/>
-                                <span className="ml-4  leading-relaxed font-light text-black text-xl">Lean back and enjoy it with a movie and tv show that is special for you!</span>
+                                <span className="ml-4  leading-relaxed font-light text-black text-xl">Sit back, relax and let Watchphile find the perfect show for you!</span>
                             </a>
                         </div>
                         <div id="for_you_intro_image_column" className="md:w-1/2 w-full mt-10 md:mt-0" >

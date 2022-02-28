@@ -20,13 +20,13 @@ module.exports = {
   logo: "",
   lang: "en",
   siteUrl: "",
-  facebook: "https://www.facebook.com/ghost",
-  twitter: "https://twitter.com/tryghost",
+  facebook: "", // if it has value, it will be shown on the website
+  twitter: "https://twitter.com/Watchphile",
   showSubscribe: true,
   mailchimpAction: "",
   mailchimpName: "",
   mailchimpEmailFieldName: "",
   googleSiteVerification: "GoogleCode",
-  footer: "is based on Gatsby Casper",
+  footer: "",
   showAllTags: true,
 }

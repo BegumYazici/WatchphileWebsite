@@ -88,10 +88,10 @@ export const PostFullContent = styled.section`
 
   a:hover {
     /* color: var(--blue); */
-    color: ${colors.blue};
+    color: ${colors.watchphilepink};
     text-decoration: none;
     /* box-shadow: var(--blue) 0 -1px 0 inset; */
-    box-shadow: ${colors.blue} 0 -1px 0 inset;
+    box-shadow: ${colors.watchphilepink} 0 -1px 0 inset;
   }
 
   strong,
@@ -375,7 +375,7 @@ export const PostFullContent = styled.section`
     padding: 0.4em 1em 0.9em;
     border: 0;
     /* color: var(--blue); */
-    color: ${colors.blue};
+    color: ${colors.watchphilepink};
     font-family: Georgia, serif;
     font-size: 3.2rem;
     line-height: 1.35em;

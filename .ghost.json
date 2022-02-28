@@ -1,10 +1,10 @@
 {
   "development": {
     "apiUrl": "https://portal.watchphile.co",
-    "contentApiKey": "6bc575c4927ff67999516fb28f"
+    "contentApiKey": "121ffa0bc789d861b637b2586e"
   },
   "production": {
     "apiUrl": "https://portal.watchphile.co",
-    "contentApiKey": "6bc575c4927ff67999516fb28f"
+    "contentApiKey": "121ffa0bc789d861b637b2586e"
   }
 }

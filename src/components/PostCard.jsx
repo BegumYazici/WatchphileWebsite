@@ -140,6 +140,7 @@ const PostCardLarge = css`
 
     .post-card-title {
       margin-top: 0;
+      padding: 0 0 0 40px;
       font-size: 3.2rem;
     }
 
@@ -152,6 +153,7 @@ const PostCardLarge = css`
     }
 
     .post-card-excerpt p {
+      padding: 0 0 0 40px;
       margin-bottom: 1.5em;
       font-size: 1.8rem;
       line-height: 1.5em;
@@ -198,7 +200,7 @@ const PostCardContentLink = css`
 const PostCardPrimaryTag = styled.div`
   margin: 0 0 0.2em;
   /* color: var(--blue); */
-  color: ${colors.blue};
+  color: ${colors.watchphilepink};
   font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 0.2px;
@@ -264,7 +266,7 @@ const PostCardBylineContent = styled.div`
 `
 
 const PostCardHeader = styled.header`
-  margin: 15px 0 0;
+  margin: 15px 0 0; 
 `
 
 export const StaticAvatar = css`

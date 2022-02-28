@@ -198,7 +198,7 @@ const PostCardContentLink = css`
 const PostCardPrimaryTag = styled.div`
   margin: 0 0 0.2em;
   /* color: var(--blue); */
-  color: ${colors.blue};
+  color: ${colors.watchphilepink};
   font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 0.2px;

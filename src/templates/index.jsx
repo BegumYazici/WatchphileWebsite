@@ -80,18 +80,22 @@ const IndexPage = props => {
           <div css={inner}>
             <SiteNav isHome />
             <SiteHeaderContent className="site-header-content">
-              <SiteTitle className="site-title">
+
+
+
+              {/* <SiteTitle className="site-title">
+                
                 {props.data.logo ? (
                   <img
-                    style={{ maxHeight: "55px" }}
+                    style={{ maxHeight: "100px" }}
                     src={getSrc(props.data.logo)}
                     alt={config.title}
                   />
                 ) : (
                   config.title
                 )}
-              </SiteTitle>
-              <SiteDescription>{config.description}</SiteDescription>
+              </SiteTitle> */}
+              {/* <SiteDescription>{config.description}</SiteDescription> */}
             </SiteHeaderContent>
           </div>
         </div>

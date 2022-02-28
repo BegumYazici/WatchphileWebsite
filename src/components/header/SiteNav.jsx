@@ -83,24 +83,19 @@ class SiteNav extends React.Component {
                 {/* eslint-disable-next-line */}
                 <li role="menuitem">
                   <Link to="/blog" activeClassName="nav-current">
-                    Home
+                    Blog
                   </Link>
                 </li>
                 {/* eslint-disable-next-line */}
-                <li role="menuitem">
-                  <Link to="/about" activeClassName="nav-current">
-                    About
-                  </Link>
-                </li>
                 {/* eslint-disable-next-line */}
-                <li role="menuitem">
+                {/* <li role="menuitem">
                   <Link
                     to="/tags/getting-started/"
                     activeClassName="nav-current"
                   >
                     Getting Started
                   </Link>
-                </li>
+                </li> */}
               </ul>
               {isPost && (
                 <NavPostTitle ref={this.titleRef} className="nav-post-title">

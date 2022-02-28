@@ -123,10 +123,10 @@ const SubscribeFormButton = styled.button`
     color(var(--blue) lightness(-4%) saturation(-10%))
   ); */
   /* background: linear-gradient(
-    ${lighten("0.07", colors.blue)},
-    ${saturate("-0.1", lighten("-0.07", colors.blue))} 60%,
-    ${saturate("-0.1", lighten("-0.07", colors.blue))} 90%,
-    ${saturate("-0.1", lighten("-0.04", colors.blue))}
+    ${lighten("0.07", colors.watchphilepink)},
+    ${saturate("-0.1", lighten("-0.07", colors.watchphilepink))} 60%,
+    ${saturate("-0.1", lighten("-0.07", colors.watchphilepink))} 90%,
+    ${saturate("-0.1", lighten("-0.04", colors.watchphilepink))}
   ); */
   background: linear-gradient(#4fb7f0, #29a0e0 60%, #29a0e0 90%, #36a6e2);
   border-radius: 5px;
@@ -136,7 +136,7 @@ const SubscribeFormButton = styled.button`
   :active,
   :focus {
     /* background: color(var(--blue) lightness(-9%) saturation(-10%)); */
-    background: ${saturate("-0.1", lighten("-0.09", colors.blue))};
+    background: ${saturate("-0.1", lighten("-0.09", colors.watchphilepink))};
   }
   @media (max-width: 500px) {
     margin: 10px 0 0 0;

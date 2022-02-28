@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "@emotion/styled"
-
+import { lighten, saturate } from "polished"
 import { colors } from "../../styles/colors"
 import config from "../../utils/siteConfig"
 import { SubscribeForm } from "./SubscribeForm"
@@ -91,7 +91,14 @@ const SubscribeOverlay = styled.div`
       color(var(--blue) lightness(-7%) saturation(-10%)) 90%,
       color(var(--blue) lightness(-4%) saturation(-10%))
     ); */
-    background: linear-gradient(#4fb7f0, #29a0e0 60%, #29a0e0 90%, #36a6e2);
+    background: linear-gradient(
+      ${lighten("0.07", colors.watchphilepink)},
+      ${saturate("-0.1", lighten("-0.07", colors.watchphilepink))} 60%,
+      ${saturate("-0.1", lighten("-0.07", colors.watchphilepink))} 90%,
+      ${saturate("-0.1", lighten("-0.04", colors.watchphilepink))}
+    ); 
+
+    //background: linear-gradient(#4fb7f0, #29a0e0 60%, #29a0e0 90%, #36a6e2);
     border-radius: 8px;
 
     -webkit-font-smoothing: subpixel-antialiased;

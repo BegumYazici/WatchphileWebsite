@@ -401,7 +401,7 @@ const IndexLayout = props => (
         }
 
         a {
-          color: ${lighten("-0.05", colors.blue)};
+          color: ${lighten("-0.05", colors.watchphilepink)};
           text-decoration: none;
         }
 

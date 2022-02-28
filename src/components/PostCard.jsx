@@ -152,6 +152,7 @@ const PostCardLarge = css`
     }
 
     .post-card-excerpt p {
+      padding: 0 0 0 40px;
       margin-bottom: 1.5em;
       font-size: 1.8rem;
       line-height: 1.5em;
@@ -265,6 +266,7 @@ const PostCardBylineContent = styled.div`
 
 const PostCardHeader = styled.header`
   margin: 15px 0 0;
+  padding: 0 0 0 40px;
 `
 
 export const StaticAvatar = css`

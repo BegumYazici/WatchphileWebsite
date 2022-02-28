@@ -203,6 +203,10 @@ const HomePosts = css`
       font-size: 1.8rem;
       line-height: 1.5em;
     }
+
+    .post-card-large .post-card-primary-tag {
+      padding: 0 0 0 40px;
+    }
   }
 `
 

@@ -140,6 +140,7 @@ const PostCardLarge = css`
 
     .post-card-title {
       margin-top: 0;
+      padding: 0 0 0 40px;
       font-size: 3.2rem;
     }
 
@@ -265,8 +266,7 @@ const PostCardBylineContent = styled.div`
 `
 
 const PostCardHeader = styled.header`
-  margin: 15px 0 0;
-  padding: 0 0 0 40px;
+  margin: 15px 0 0; 
 `
 
 export const StaticAvatar = css`

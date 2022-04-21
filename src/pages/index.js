@@ -23,7 +23,6 @@ import icon3 from "../images/bubble-chat.svg"
 import icon4 from "../images/review.svg"
 
 import watchphile_video from "../assets/watchphile_video.mp4"
-import { Link } from "gatsby"
 
 function handleClick(e) {
     e.preventDefault();
@@ -91,7 +90,7 @@ export default class HomePage extends React.Component {
                     <a className="" href="#">
                         <img className="h-8 md:h-8" alt="Watchphile Icon" src={watchphile_text_image}/>
                     </a>
-                    <Link to="/blog" className="text-white">Blog</Link>
+                    <a href="https://blog.watchphile.co" target="_blank" className="text-white">Blog</a>
                 </header>
 
                 <section className="text-gray-600 body-font bg-black">

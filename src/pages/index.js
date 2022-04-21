@@ -22,6 +22,7 @@ import icon1 from "../images/waste-of-time.svg"
 import icon2 from "../images/search.svg"
 import icon3 from "../images/bubble-chat.svg"
 import icon4 from "../images/review.svg"
+import { Link } from "gatsby"
 
 import watchphile_video from "../assets/watchphile_video.mp4"
 
@@ -87,10 +88,11 @@ export default class HomePage extends React.Component {
                     />
                 </div>
 
-                <header className="sticky z-10 top-0 bg-black filter drop-shadow p-3 px-6 md:px-10 border-b border-gray-300">
+                <header className="sticky z-10 top-0 bg-black filter drop-shadow p-3 px-6 md:px-10 border-b border-gray-300 flex justify-between">
                     <a className="" href="#">
                         <img className="h-8 md:h-8" alt="Watchphile Icon" src={watchphile_text_image}/>
                     </a>
+                    <a href="https://blog.watchphile.co" target="_blank" className="text-white">Blog</a>
                 </header>
 
                 <section className="text-gray-600 body-font bg-black">
